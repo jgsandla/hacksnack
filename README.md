@@ -58,6 +58,8 @@ If you host them somewhere else, point the game at that location:
 <HackSnackGame assetBasePath="/static/hacksnack" />
 ```
 
+If you copy the assets there by hand rather than with the command, take `pdf.worker.mjs` from your installed `pdfjs-dist/build/`, not from this package's `assets/`.
+
 ## Props
 
 | Prop               | Type     | Default              | Description                                                                    |
