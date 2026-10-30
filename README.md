@@ -48,6 +48,10 @@ directory and they'll be served at `/games/hacksnack/...` by default:
 npx hacksnack-copy-assets ./public/games/hacksnack
 ```
 
+The pdf.js worker is copied from your installed `pdfjs-dist`, since pdf.js
+needs the worker and the library to be the same version. Re-run the command
+after `pdfjs-dist` changes, for example from a `postinstall` script.
+
 If you host them somewhere else, point the game at that location:
 
 ```tsx
